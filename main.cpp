@@ -7,8 +7,8 @@ using namespace std;
 
 int main( )
 {
-    int a[]{2,3,4,5,1,9,8};
-    InsertSort(a, sizeof(a)/sizeof(a[0]));
+    double a[]{2.9,3,4.3,5,1,9,8};
+    ModInsSort(a, sizeof(a)/sizeof(a[0]),1);
     for (auto x:a) {
         cout << x << " ";
     }
