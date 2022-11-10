@@ -3,4 +3,6 @@ project(projects)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(projects main.cpp)
+set(SOURCES main.cpp Algorithm/Sort.cpp)
+
+add_executable(projects ${SOURCES})
